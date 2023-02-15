@@ -1,0 +1,16 @@
+{
+    "Order":{
+        "_": { "items": 500 },
+        "user_id": {"regexp": "[0-9]{15}"},
+        "player_id": {"regexp": "[0-9]{15}"},
+        "player_name": { "regexp": "[A-Z][a-z]{5,10}" },
+        "game_id": 0,
+        "game_type": 0,
+        "bet_array":[
+                {
+                    "value": {"int": {"min":0, "max":17}},
+                    "amount": {"double": {"min":100, "max":1000}}
+                }  
+            ]
+        }
+}
