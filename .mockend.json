@@ -6,9 +6,7 @@
         "player_name": { "regexp": "[A-Z][a-z]{5,10}" },
         "game_id": {"int": [0]},
         "game_type": {"int": [0]},
-        "bet_array":{
-                "value": {"int": {"min":0, "max":17}},
-                "amount": {"double": {"min":100, "max":1000}}
-            }
-        }
+        "value": {"int": {"min":0, "max":17}},
+        "amount": {"double": {"min":100, "max":1000}}
+    }
 }
